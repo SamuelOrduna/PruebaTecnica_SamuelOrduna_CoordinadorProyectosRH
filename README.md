@@ -17,7 +17,6 @@ Cada ejercicio fue resuelto en una **rama independiente** y documentado por sepa
 - Facilitar su validación y revisión.
 
 📄 [Haz clic aquí para abrir la prueba técnica en PDF](./Prueba_tecnica_2025.pdf)
-![Estructura del proyecto](./392c4713-b1a1-4b8c-b4ee-c1dd30cb960c.png)
 ---
 
 ## Ejercicio 1 – Formateo de nombres
@@ -107,6 +106,7 @@ Espero que mis soluciones les resulten prácticas, limpias y bien documentadas.
 ¡Estoy entusiasmado por esta oportunidad de aplicar al puesto de Coordinador de Proyectos de Recursos Humanos!
 
 Saludos cordiales,
-~Samuel Orduña.
+
+## *`~Samuel Orduña.`*
 
 [![Gracias <3](https://c.tenor.com/nQXlXRZLWgIAAAAd/tenor.gif)](https://youtube.com/shorts/JUKsboPi-Mo?si=_KGIUloB3bYSZfNs)
