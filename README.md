@@ -4,6 +4,6 @@ Este repositorio contiene la solución a la prueba técnica para el puesto de **
 
 Con el fin de hacer más **legible y ordenada** la prueba, cada ejercicio fue resuelto en una **rama independiente**. Esto permite **revisar cada solución por separado**, facilitando el análisis, validación y revisión de cada parte del proyecto de forma clara y estructurada.
 
-[👉 Haz clic aquí para abrir la 📄 prueba técnica en PDF](./Prueba_tecnica.pdf)
+[👉 Haz clic aquí para abrir la 📄 prueba técnica en PDF](Prueba_tecnica_2025.pdf)
 
 ---
