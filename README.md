@@ -1,5 +1,5 @@
-# Prueba Técnica · Samuel Orduña  
-**Puesto: Coordinador de Proyectos de Recursos Humanos**
+# `Puesto: Coordinador de Proyectos de Recursos Humanos`
+# `Prueba técnica.`  `Samuel Orduña`  
 
 Este repositorio contiene la solución estructurada a la prueba técnica para el puesto de **Coordinador de Proyectos RH**, con foco en **automatización de procesos**, **análisis de datos** y **manejo eficiente de información** usando herramientas como:
 
@@ -107,6 +107,6 @@ Espero que mis soluciones les resulten prácticas, limpias y bien documentadas.
 
 Saludos cordiales,
 
-## *`~Samuel Orduña.`*
+*`~Samuel Orduña.`*
 
-[![Gracias <3](https://c.tenor.com/nQXlXRZLWgIAAAAd/tenor.gif)](https://youtube.com/shorts/JUKsboPi-Mo?si=_KGIUloB3bYSZfNs)
+[![Gracias <3](https://c.tenor.com/nQXlXRZLWgIAAAAd/tenor.gif)](https://youtu.be/dQw4w9WgXcQ?si=YVCcZr32np6XnFQi)
