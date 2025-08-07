@@ -1,112 +1,112 @@
-# `Puesto: Coordinador de Proyectos de Recursos Humanos`
-# `Prueba técnica.`  `Samuel Orduña`  
+# `Position: Human Resources Project Coordinator`  
+# `Technical Test` · `Samuel Orduña`
 
-Este repositorio contiene la solución estructurada a la prueba técnica para el puesto de **Coordinador de Proyectos RH**, con foco en **automatización de procesos**, **análisis de datos** y **manejo eficiente de información** usando herramientas como:
+This repository contains the structured solution to the technical test for the **Human Resources Project Coordinator** position, focusing on **process automation**, **data analysis**, and **efficient information management** using tools such as:
 
-- 🐍 **Python 3.10+**
-- 📊 **Pandas**, **NumPy**
-- 📁 Procesamiento de archivos **CSV** y **Excel**
-
----
-
-## Estructura del repositorio
-
-Cada ejercicio fue resuelto en una **rama independiente** y documentado por separado. Este enfoque permite:
-
-- Separar claramente la lógica de cada solución.
-- Facilitar su validación y revisión.
-
-📄 [Haz clic aquí para abrir la prueba técnica en PDF](./Prueba_tecnica_2025.pdf)
----
-
-## Ejercicio 1 – Formateo de nombres
-
-Se resolvió el problema de transformar nombres desordenados en formato:  
-**`Nombre(s) ApellidoPaterno ApellidoMaterno`**, preservando la `Clave Única` como texto.
-
-Se implementaron **dos versiones comparativas**:
-
-| Enfoque         | Archivo                        | Características principales                                   |
-|-----------------|--------------------------------|---------------------------------------------------------------|
-| Funcional       | `ejercicio_1_funcional.py`     | Lógica directa y vectorizada con `pandas`                     |
-| Modular (SOLID) | `ejercicio_1_SOLID.py`         | Separación clara de responsabilidades en funciones pequeñas   |
-
-Salidas:
-- `resultado_funcional_ejercicio_1.xlsx`
-- `resultado_ejercicio_1_SOLID.xlsx`
-
-Ver análisis comparativo en [`ejercicio_1_README.md`](./ejercicio-1/ejercicio_1_README.md)
+- 🐍 **Python 3.10+**  
+- 📊 **Pandas**, **NumPy**  
+- 📁 Handling of **CSV** and **Excel** files  
 
 ---
 
-## Ejercicio 2 – Unión de correos
+## Repository Structure
 
-Se tomó el archivo de nombres completos del Ejercicio 1 y se integraron los correos por `Clave Única`, cuidando el tipo de dato y realizando un merge tipo **LEFT JOIN**.
+Each exercise was solved in an **independent branch** and documented separately. This approach allows for:
 
-Archivos involucrados:
-- `correos.csv`
-- `resultado_funcional_ejercicio_1.xlsx`
+- Clear separation of logic for each solution  
+- Easier validation and review  
 
-Salida generada:  
-`resultado_ejercicio_2.xlsx`
-
-Detalles en [`ejercicio_2_README.md`](./ejercicio-2/ejercicio_2_README.md)
+📄 [Click here to open the technical test in PDF](./Prueba_tecnica_2025.pdf)
 
 ---
 
-## Ejercicio 3 – Cálculo de antigüedad
+## Exercise 1 – Name Formatting
 
-Se calculó la antigüedad acumulada de profesores a partir de su historial de clases por año, considerando las siguientes reglas:
+This task involved transforming disorganized names into the format:  
+**`FirstName(s) LastNamePaternal LastNameMaternal`**, while preserving the `Unique Key` as text.
 
-- `1` = año completo
-- `0.5` = un semestre
-- Si pasan **más de 4 años sin actividad**, la antigüedad **se reinicia**.
+Two comparative versions were implemented:
 
-Archivos:
-- `matriz_antiguedad.xlsx`
-- `resultado_ejercicio_2.xlsx`
+| Approach         | File                          | Key Features                                              |
+|------------------|-------------------------------|-----------------------------------------------------------|
+| Functional       | `ejercicio_1_funcional.py`    | Direct, vectorized logic using `pandas`                   |
+| Modular (SOLID)  | `ejercicio_1_SOLID.py`        | Clean separation of responsibilities into small functions |
 
-Salida:  
-`resultado_ejercicio_3.xlsx`
+**Outputs:**
+- `resultado_funcional_ejercicio_1.xlsx`  
+- `resultado_ejercicio_1_SOLID.xlsx`  
 
-Explicación completa en [`ejercicio_3_README.md`](./ejercicio-3/ejercicio_3_README.md)
-
----
-
-## Ejercicio 4 – Actualización con datos 2024
-
-Este ejercicio actualiza la matriz de antigüedad con la información del año 2024 y detecta profesores nuevos.
-
-Pasos clave:
-- Limpieza y estandarización de encabezados (`2024` en vez de `2,024`)
-- Unificación de datos por `Clave Única`
-- Detección de profesores **que no estaban** en la matriz original
-
-Archivos generados:
-- `matriz_antiguedad_actualizada.xlsx`
-- `profesores_nuevos_2024.xlsx`
-
-Ver detalles técnicos en [`ejercicio_4_README.md`](./ejercicio-4/ejercicio_4_README.md)
+🔍 See comparative analysis in [`ejercicio_1_README.md`](./ejercicio-1/ejercicio_1_README.md)
 
 ---
 
-## Notas adicionales
+## Exercise 2 – Email Join
 
-- Cada script fue validado para evitar errores comunes con claves numéricas (`Clave Unica`), encoding (`UTF-8`, `Windows-1252`) y formatos.
-- Solo en el **Ejercicio 1** se incluyó una versión con principios **SOLID**, para demostrar habilidades en diseño limpio y escalable(:
-- El resto de los ejercicios opta por soluciones más directas, suponiendo entornos con menor cambio y menor necesidad de modularidad.
+This exercise merged email data with the full names from Exercise 1 using the `Unique Key`, ensuring correct data types and performing a **LEFT JOIN**.
+
+**Files involved:**
+- `correos.csv`  
+- `resultado_funcional_ejercicio_1.xlsx`  
+
+**Generated output:**  
+`resultado_ejercicio_2.xlsx`  
+
+📄 See details in [`ejercicio_2_README.md`](./ejercicio-2/ejercicio_2_README.md)
 
 ---
 
-## Agradecimiento
+## Exercise 3 – Seniority Calculation
 
-Gracias por la oportunidad de participar en este proceso.  
-Espero que mis soluciones les resulten prácticas, limpias y bien documentadas.  
+This task calculated cumulative seniority of professors based on yearly teaching records, following these rules:
 
-¡Estoy entusiasmado por esta oportunidad de aplicar al puesto de Coordinador de Proyectos de Recursos Humanos!
+- `1` = full year  
+- `0.5` = one semester  
+- If **more than 4 years** pass without activity, seniority **resets**
 
-Saludos cordiales,
+**Files:**
+- `matriz_antiguedad.xlsx`  
+- `resultado_ejercicio_2.xlsx`  
 
-*`~Samuel Orduña.`*
+**Output:**  
+`resultado_ejercicio_3.xlsx`  
 
-[![Gracias <3](https://c.tenor.com/nQXlXRZLWgIAAAAd/tenor.gif)](https://youtu.be/dQw4w9WgXcQ?si=YVCcZr32np6XnFQi)
+📄 Full explanation in [`ejercicio_3_README.md`](./ejercicio-3/ejercicio_3_README.md)
+
+---
+
+## Exercise 4 – 2024 Data Update
+
+This exercise updates the seniority matrix with 2024 data and detects new professors.
+
+**Key steps:**
+- Cleanup and standardization of headers (`2024` instead of `2,024`)  
+- Merging by `Unique Key`  
+- Detection of professors **not present** in the original matrix
+
+**Generated files:**
+- `matriz_antiguedad_actualizada.xlsx`  
+- `profesores_nuevos_2024.xlsx`  
+
+📄 See technical details in [`ejercicio_4_README.md`](./ejercicio-4/ejercicio_4_README.md)
+
+---
+
+## Additional Notes
+
+- All scripts were validated to prevent common issues with numeric keys (`Unique Key`), encodings (`UTF-8`, `Windows-1252`), and file formats.  
+- Only **Exercise 1** includes a version following **SOLID principles**, to demonstrate clean and scalable design skills 🙂  
+- The rest of the exercises use more direct solutions, assuming low-change environments with simpler modularity needs.
+
+---
+
+## Thank You
+
+Thank you for the opportunity to participate in this process.  
+I hope you find the solutions practical, clean, and well-documented.
+
+I'm excited about the possibility of contributing as a **Human Resources Project Coordinator**!
+
+Warm regards,  
+**~Samuel Orduña**
+
+[![Thanks <3](https://c.tenor.com/nQXlXRZLWgIAAAAd/tenor.gif)](https://youtu.be/dQw4w9WgXcQ?si=YVCcZr32np6XnFQi)
